@@ -1,0 +1,1593 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto;
+    user-select: none;
+}
+
+#header {
+    position: relative; 
+    width: 100%;
+    height: 150px;
+}
+
+#header h1 {
+    position: absolute;
+    color: #000;
+    font-size: 55px;
+    margin-left: 25px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+#header h2 {
+    position: absolute;
+    font-size: 35px;
+    margin-left: 75px;
+    margin-top: 80px;
+}
+
+#logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #e8b022;
+    margin-top: 25px;
+    margin-left: 225px;
+}
+
+#logo:hover {
+    animation: logoRotate 1.5s 1;
+}
+
+#navigation {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 40px;
+}
+
+#navigation li {
+    display: inline;
+    margin-left: 25px;
+}
+
+#navigation li a {
+    color: #a3a3a3;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#navigation li a:hover {
+    color: #000;
+}
+
+#ddBox {
+    display: none;
+    position: absolute;
+    background-color: #a3a3a3;
+    width: 100%;
+    height: 580px;
+    margin-top: 8px;
+}
+
+#ddBox li {
+    list-style: none;
+    margin-top: 60px;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 8px;
+}
+
+#ddBox li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 19px;
+}
+
+#ddBox li:hover {
+    border: 2px solid #e8b022;
+}
+
+#ddButton {
+    position: absolute;
+    width: 25%;
+    height: 28px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    background-color: #a3a3a3;
+    color: #000;
+    font-family: Robotto;
+    font-size: 16px;
+    margin-top: 450px;
+    margin-left: 37%;
+}
+
+#ddBox h1 {
+    position: relative;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+#ddButton:hover {
+    border: 2px solid #e8b022;
+}
+
+#content h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+#p1 {
+    text-align: center;
+    font-size: 20px;    
+}
+
+#border1 {
+    border: 3px solid #000;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    margin-left: 33%;
+    margin-top: 50px;
+}
+
+#b1b {
+    display: none;
+    position: absolute; 
+    width: 150px;
+    height: 250px;
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#b2b {
+    display: none;
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    border-radius: 15px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+#b3b {
+    display: none;
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    border-radius: 15px;
+    margin-left: 800px;
+    margin-top: 72px;
+}
+
+#b4b {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 800px;
+    margin-top: 72px;
+}
+
+#b5b {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 800px;
+    margin-top: 72px;
+}
+
+#value1 {
+    position: absolute;
+    font-size: 18px;
+    transform: rotate(30deg);
+    margin-left: 300px;
+    margin-top: -400px;
+    color: #a3a3a3;
+}
+
+#value2 {
+    position: absolute;
+    font-size: 18px;
+    transform: rotate(-30deg);
+    margin-left: 1000px;
+    margin-top: -300px;
+    color: #000;
+}
+
+#value3 {
+    position: absolute;
+    font-size: 18px;
+    transform: rotate(20deg);
+    margin-left: 300px;
+    margin-top: -100px;
+    color: #000;
+}
+
+#value4 {
+    position: absolute;
+    font-size: 18px;
+    transform: rotate(60deg);
+    margin-left: 1000px;
+    margin-top: -100px;
+    color: #a3a3a3;
+}
+
+#value5 {
+    position: absolute;
+    font-size: 18px;
+    transform: rotate(-60deg);
+    margin-left: 100px;
+    margin-top: 50px;
+    color: #a3a3a3;
+}
+
+#value6 {
+    position: absolute;
+    font-size: 18px;
+    transform: rotate(45deg);
+    margin-left: 70px;
+    margin-top: -205px;
+    color: #e8b022;
+}
+
+#value7 {
+    position: absolute;
+    font-size: 18px;
+    transform: rotate(-40deg);
+    margin-left: 1200px;
+    margin-top: 50px;
+    color: #e8b022;
+}
+
+#value8 {
+    position: absolute;
+    font-size: 18px;
+    transform: rotate(20deg);
+    margin-left: 1200px;
+    margin-top: -205px;
+    color: #a3a3a3;
+}
+
+#value9 {
+    position: absolute;
+    font-size: 18px;
+    transform: rotate(50deg);
+    margin-left: 1150px;
+    margin-top: -400px;
+    color: #e8b022;
+}
+
+#value10 {
+    position: absolute;
+    font-size: 18px;
+    transform: rotate(-45deg);
+    margin-left: 100px;
+    margin-top: -400px;
+    color: #000;
+}
+
+#white {
+    height: 1200px;
+    width: 100%;
+}
+
+#white h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 400px;
+}
+
+.obj {
+    position: absolute;
+    width: 400px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+#obj1 {
+    margin-top: -85px;
+    margin-left: 0%;
+}
+
+#obj2 {
+    margin-top: -55px;
+    margin-left: 0%;
+}
+
+#obj3 {
+    margin-top: -25px;
+    margin-left: 0%;
+}
+
+#obj4 {
+    margin-top: -85px;
+    margin-left: 72.3%;
+}
+
+#obj5 {
+    margin-top: -55px;
+    margin-left: 72.3%;
+}
+
+#obj6 {
+    margin-top: -25px;
+    margin-left: 72.3%;
+}
+
+.location {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 150px;
+    width: 300px;
+    height: 65px;
+    border: 5px solid #a3a3a3;
+    color: #a3a3a3;
+    font-size: 18px;
+}
+
+.location:focus {
+    border: 5px solid #000;
+}
+
+#locationP {
+    position: absolute;
+    width: 250px;
+    height: 450px;
+    margin-top: 230px;
+    margin-left: 125px;
+    border-radius: 10px;
+}
+
+.jobRole {
+    position: absolute;
+    margin-left: 565px;
+    margin-top: 150px;
+    width: 300px;
+    height: 65px;
+    border: 5px solid #a3a3a3;
+    color: #a3a3a3;
+    font-size: 18px;
+}
+
+.jobRole:focus {
+    border: 5px solid #000;
+}
+
+#jobRoleP {
+    position: absolute;
+    width: 250px;
+    height: 450px;
+    margin-top: 230px;
+    margin-left: 590px;
+    border-radius: 10px;
+}
+
+.jobType {
+    position: absolute;
+    margin-left: 1015px;
+    margin-top: 150px;
+    width: 300px;
+    height: 65px;
+    border: 5px solid #a3a3a3;
+    color: #a3a3a3;
+    font-size: 18px;
+}
+
+.jobType:focus {
+    border: 5px solid #000;
+}
+
+#jobTypeP {
+    position: absolute;
+    width: 250px;
+    height: 450px;
+    margin-top: 230px;
+    margin-left: 1040px;
+    border-radius: 10px;
+}
+
+#checkJobs {
+    position: absolute;
+    width: 400px;
+    height: 70px;
+    font-size: 23px;
+    border: 3px solid #a3a3a3;
+    color: #a3a3a3;
+    border-radius: 25px;
+    background-color: #fff;
+    margin-left: 510px;
+    margin-top: 720px;
+}
+
+#checkJobs:hover {
+    border: 3px solid #e8b022;
+    color: #000;
+}
+
+#footer {
+    width: 100%;
+    height: 250px;
+    background-color: #a3a3a3;
+}
+
+#twitter {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 120px;
+    margin-left: 1080px;
+}
+
+#facebook {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 120px;
+    margin-left: 1145px;
+}
+
+#instagram {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 120px;
+    margin-left: 1210px;
+}
+
+#linkedin {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 120px;
+    margin-left: 1275px;
+}
+
+#berlinP {
+    font-weight: bold;
+    position: absolute;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#parisP {
+    font-weight: bold;
+    position: absolute;
+    font-size: 18px;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+#londonP {
+    font-weight: bold;
+    position: absolute;
+    font-size: 18px;
+    margin-left: 200px;
+    margin-top: 130px;
+}
+
+#bInfo {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+#bInfo1 {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 90px;
+}
+
+#bInfo2 {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 100px;
+}
+
+#pInfo {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 310px;
+}
+
+#pInfo1 {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 320px;
+}
+
+#pInfo2 {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 340px;
+}
+
+#lInfo {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 200px;
+}
+
+#copyright {
+    position: absolute;
+    margin-left: 1105px;
+    margin-top: 200px;
+}
+
+#impressum {
+    position: absolute;
+    margin-left: 1225px;
+    margin-top: 200px;
+}
+
+#footerLogo {
+    position: absolute;
+    width: 170px;
+    height: 150px;
+    margin-left: 700px;
+    margin-top: 50px;   
+}
+
+@keyframes logoRotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1340px) {
+    
+    
+    #value1 {
+        position: absolute;
+        font-size: 18px;
+        transform: rotate(30deg);
+        margin-left: 300px;
+        margin-top: -400px;
+    }
+
+    #value2 {
+        position: absolute;
+        font-size: 18px;
+        transform: rotate(-30deg);
+        margin-left: 1000px;
+        margin-top: -300px;
+    }
+
+    #value3 {
+        position: absolute;
+        font-size: 18px;
+        transform: rotate(20deg);
+        margin-left: 300px;
+        margin-top: -100px;
+    }
+
+    #value4 {
+        position: absolute;
+        font-size: 18px;
+        transform: rotate(60deg);
+        margin-left: 1000px;
+        margin-top: -100px;
+    }
+
+    #value5 {
+        position: absolute;
+        font-size: 18px;
+        transform: rotate(-60deg);
+        margin-left: 150px;
+        margin-top: -50px;
+    }
+
+    #value6 {
+        position: absolute;
+        font-size: 18px;
+        transform: rotate(45deg);
+        margin-left: 120px;
+        margin-top: -205px;
+    }
+
+    #value7 {
+        position: absolute;
+        font-size: 18px;
+        transform: rotate(-40deg);
+        margin-left: 1100px;
+        margin-top: -50px;
+    }
+
+    #value8 {
+        position: absolute;
+        font-size: 18px;
+        transform: rotate(20deg);
+        margin-left: 1100px;
+        margin-top: -205px;
+    }
+
+    #value9 {
+        position: absolute;
+        font-size: 18px;
+        transform: rotate(50deg);
+        margin-left: 1100px;
+        margin-top: -400px;
+    }
+
+    #value10 {
+        position: absolute;
+        font-size: 18px;
+        transform: rotate(-45deg);
+        margin-left: 150px;
+        margin-top: -400px;
+    }
+    
+    .obj {
+        width: 400px;
+        height: 10      px;    
+    }
+    
+    #locationP {
+        width: 200px;
+        height: 400px;
+        margin-left: 240px;
+        
+    }
+    
+    #jobRoleP {
+        width: 200px;
+        height: 400px;
+        margin-left: 540px;
+    }
+    
+    #jobTypeP {
+        width: 200px;
+        height: 400px;
+        margin-left: 840px;
+    }
+    
+    .location {
+        width: 250px;
+        height: 50px;
+        margin-left: 215px;
+    }
+    
+    .jobRole {
+        width: 250px;
+        height: 50px;
+        margin-left: 515px;
+    }
+    
+    .jobType {
+        width: 250px;
+        height: 50px;
+        margin-left: 815px;
+    }
+    
+    #checkJobs {
+        width: 300px;
+        height: 50px;
+        margin-left: 490px;
+    }
+    
+    #twitter {
+        width: 40px;
+        height: 40px;
+        margin-left: 920px;
+    }
+    
+    #facebook {
+        width: 40px;
+        height: 40px;
+        margin-left: 970px;
+    }
+    
+    #instagram {
+        width: 40px;
+        height: 40px;
+        margin-left: 1020px;
+    }
+    
+    #linkedin {
+        width: 40px;
+        height: 40px;
+        margin-left: 1070px;
+    }
+    
+    #copyright {
+        margin-left: 910px;
+    }
+    
+    #impressum {
+        margin-left: 1030px;
+    }
+    
+    #footerLogo {
+        width: 140px;
+        height: 120px;
+        margin-top: 100px;
+        margin-left: 650px;
+    }
+    
+    #berlinP {
+        font-weight: bold;
+        position: absolute;
+        font-size: 18px;
+        margin-left: 100px;
+        margin-top: 130px;
+    }
+
+    #parisP {
+        font-weight: bold;
+        position: absolute;
+        font-size: 18px;
+        margin-left: 280px;
+        margin-top: 130px;
+    }
+
+    #londonP {
+        font-weight: bold;
+        position: absolute;
+        font-size: 18px;
+        margin-left: 460px;
+        margin-top: 130px;
+    }
+    
+    #bInfo {
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 60px;
+        font-size: 15px;
+    }
+
+    #bInfo1 {
+        position: absolute;
+        margin-top: 180px;
+        margin-left: 90px;
+        font-size: 15px;
+    }
+
+    #bInfo2 {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 100px;
+        font-size: 15px;
+    }
+
+    #pInfo {
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 240px;
+        font-size: 15px;
+    }
+
+    #pInfo1 {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 260px;
+        font-size: 15px;
+    }
+
+    #pInfo2 {
+        position: absolute;
+        margin-top: 220px;
+        margin-left: 280px;
+        font-size: 15px;
+    }
+
+    #lInfo {
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 464px;
+        font-size: 15px;
+    }
+}    
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1225px) {
+     
+    
+    #value1 {
+        display: none;
+    }
+    
+    #value2 {
+        display: none;
+    }
+    
+    #value3 {
+        display: none;
+    }
+    
+    #value4 {
+        display: none;
+    }
+    
+    #value5 {
+        display: none;
+    }
+    
+    #value6 {
+        display: none;
+    }
+    
+    #value7 {
+        display: none;
+    }
+    
+    #value8 {
+        display: none;
+    }
+    
+    #value9 {
+        display: none;
+    }
+    
+    #value10 {
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1175px) {
+    #navigation {
+        margin-left: 300px;
+    }
+    
+    #white {
+        margin-left: -30px;
+    }
+    
+    #obj1 {
+        margin-top: -85px;
+        margin-left: -20%;
+    }
+
+    #obj2 {
+        margin-top: -55px;
+        margin-left: -20%;
+    }
+
+    #obj3 {
+        margin-top: -25px;
+        margin-left: -20%;
+    }
+
+    #obj4 {
+        margin-top: -85px;
+        margin-left: 92.3%;
+    }
+
+    #obj5 {
+        margin-top: -55px;
+        margin-left: 92.3%;
+    }
+
+    #obj6 {
+        margin-top: -25px;
+        margin-left: 92.3%;
+    }
+    
+    #white h1 {
+        margin-left: 200px;
+    }
+    
+    .location {
+        margin-left: 100px;
+    }
+    
+    .jobRole {
+        margin-left: 400px;
+    }
+    
+    .jobType {
+        margin-left: 700px;
+    }
+    
+    #checkJobs {
+        width: 300px;
+        height: 50px;
+        margin-left: 380px;
+    }
+    
+    #locationP {
+        margin-left: 130px;
+    }
+    
+    #jobRoleP {
+        margin-left: 430px;
+    }
+    
+    #jobTypeP {
+        margin-left: 730px;
+    }
+    
+    #twitter {
+        width: 40px;
+        height: 40px;
+        margin-left: 720px;
+    }
+    
+    #facebook {
+        width: 40px;
+        height: 40px;
+        margin-left: 770px;
+    }
+    
+    #instagram {
+        width: 40px;
+        height: 40px;
+        margin-left: 820px;
+    }
+    
+    #linkedin {
+        width: 40px;
+        height: 40px;
+        margin-left: 870px;
+    }
+    
+    #copyright {
+        margin-left: 720px;
+    }
+    
+    #impressum {
+        margin-left: 840px;
+    }
+    
+    #footerLogo {
+        width: 140px;
+        height: 120px;
+        margin-top: 100px;
+        margin-left: 560px;
+    }
+    
+    #berlinP {
+        font-weight: bold;
+        position: absolute;
+        font-size: 18px;
+        margin-left: 50px;
+        margin-top: 130px;
+    }
+
+    #parisP {
+        font-weight: bold;
+        position: absolute;
+        font-size: 18px;
+        margin-left: 230px;
+        margin-top: 130px;
+    }
+
+    #londonP {
+        font-weight: bold;
+        position: absolute;
+        font-size: 18px;
+        margin-left: 410px;
+        margin-top: 130px;
+    }
+    
+    #bInfo {
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    #bInfo1 {
+        position: absolute;
+        margin-top: 180px;
+        margin-left: 40px;
+        font-size: 15px;
+    }
+
+    #bInfo2 {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 50px;
+        font-size: 15px;
+    }
+
+    #pInfo {
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 190px;
+        font-size: 15px;
+    }
+
+    #pInfo1 {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 210px;
+        font-size: 15px;
+    }
+
+    #pInfo2 {
+        position: absolute;
+        margin-top: 220px;
+        margin-left: 230px;
+        font-size: 15px;
+    }
+
+    #lInfo {
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 414px;
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 950px) {
+    
+    #border1 {
+        margin-left: 25%;
+    }
+    
+    #white {
+        margin-left: -90px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 920px) {
+    
+    #border1 {
+    }
+    
+    #locationP {
+        display: none;
+    }
+    
+    #jobRoleP {
+        display: none;
+    }
+    
+    #jobTypeP {
+        display: none;
+    }
+    
+    .location {
+        margin-left: 450px;
+        margin-top: 150px;
+    }
+    
+    .jobRole {
+        margin-left: 450px;
+        margin-top: 250px;
+    }
+    
+    .jobType {
+        margin-left: 450px;
+        margin-top: 350px;
+    }
+    
+    #checkJobs {
+        margin-top: 480px;
+        margin-left: 420px;
+    }
+    
+    #white {
+        height: 900px;
+    }
+    
+    #berlinP {
+        font-weight: bold;
+        position: absolute;
+        font-size: 15px;
+        margin-left: 45px;
+        margin-top: 130px;
+    }
+
+    #parisP {
+        font-weight: bold;
+        position: absolute;
+        font-size: 15px;
+        margin-left: 180px;
+        margin-top: 130px;
+    }
+
+    #londonP {
+        font-weight: bold;
+        position: absolute;
+        font-size: 15px;
+        margin-left: 300px;
+        margin-top: 130px;
+    }
+    
+    #bInfo {
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 5px;
+        font-size: 13px;
+    }
+
+    #bInfo1 {
+        position: absolute;
+        margin-top: 180px;
+        margin-left: 30px;
+        font-size: 13px;
+    }
+
+    #bInfo2 {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 40px;
+        font-size: 13px;
+    }
+
+    #pInfo {
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 150px;
+        font-size: 13px;
+    }
+
+    #pInfo1 {
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 165px;
+        font-size: 13px;
+    }
+
+    #pInfo2 {
+        position: absolute;
+        margin-top: 220px;
+        margin-left: 180px;
+        font-size: 13px;
+    }
+
+    #lInfo {
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 300px;
+        font-size: 13px;
+    }
+    
+    
+    #footerLogo {
+        margin-left: 400px;
+    }
+    
+    #twitter {
+        width: 40px;
+        height: 40px;
+        margin-left: 550px;
+        margin-top: 100px;
+    }
+    
+    #facebook {
+        width: 40px;
+        height: 40px;
+        margin-left: 600px;
+        margin-top: 100px;
+    }
+    
+    #instagram {
+        width: 40px;
+        height: 40px;
+        margin-left: 550px;
+        margin-top: 150px;
+    }
+    
+    #linkedin {
+        width: 40px;
+        height: 40px;
+        margin-left: 600px;
+        margin-top: 150px;
+    }
+    
+    #impressum {
+        margin-left: 550px;
+        margin-top: 216px;
+    }
+    
+    #copyright {
+        margin-left: 550px;
+        margin-top: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    #navigation {
+        display: none;
+    }
+    
+    #obj1 {
+        margin-top: 155px;
+        margin-left: -20%;
+    }
+
+    #obj2 {
+        margin-top: 175px;
+        margin-left: -20%;
+    }
+
+    #obj3 {
+        margin-top: 195px;
+        margin-left: -20%;
+    }
+
+    #obj4 {
+        margin-top: 155px;
+        margin-left: 92.3%;
+    }
+
+    #obj5 {
+        margin-top: 175px;
+        margin-left: 92.3%;
+    }
+
+    #obj6 {
+        margin-top: 195px;
+        margin-left: 92.3%;
+    }
+    
+    #white h1 {
+        position: absolute;
+        font-size: 22px;
+        margin-top: 170px;
+        margin-left: 385px;
+    }
+    
+    .location {
+        margin-left: 360px;
+        margin-top: 250px;
+    }
+    
+    .jobRole {
+        margin-left: 360px;
+        margin-top: 320px;
+    }
+    
+    .jobType {
+        margin-left: 360px;
+        margin-top: 390px;
+    }
+    
+    #checkJobs {
+        margin-left: 330px;
+        margin-top: 500px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 660px) {
+
+    
+    #twitter {
+        margin-top: 40px;
+        margin-left: 8%;
+    }
+    
+    #facebook {
+        margin-top: 40px;
+        margin-left: 16%;
+    }
+    
+    #instagram {
+        margin-top: 40px;
+        margin-left: 24%;
+    }
+    
+    #linkedin {
+        margin-top: 40px;
+        margin-left: 32%;
+    }
+    
+    #copyright {
+        margin-top: 90px;
+        margin-left: 8%;
+    }
+    
+    #impressum {
+        margin-top: 90px;
+        margin-left: 26%;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 650px) {
+    
+    
+    #white h1 {
+        margin-left: 50%;
+    }
+    
+    #obj1 {
+        margin-top: 105px;
+        margin-left: -40%;
+    }
+
+    #obj2 {
+        margin-top: 125px;
+        margin-left: -40%;
+    }
+
+    #obj3 {
+        margin-top: 145px;
+        margin-left: -40%;
+    }
+
+    #obj4 {
+        margin-top: 105px;
+        margin-left: 107.3%;
+    }
+
+    #obj5 {
+        margin-top: 125px;
+        margin-left: 107.3%;
+    }
+
+    #obj6 {
+        margin-top: 145px;
+        margin-left: 107.3%;
+    }
+    
+    .location {
+        margin-left: 45%;
+    }
+    
+    .jobRole {
+        margin-left: 45%;
+    }
+    
+    .jobType {
+        margin-left: 45%;
+    }
+    
+    #checkJobs {
+        margin-left: 41%;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 550px) {
+    
+    #border1 {
+        margin-left: 8%;
+    }
+    
+    .obj {
+        position: absolute;
+        width: 100px;
+        height: 7px;    
+    }
+    
+    #obj1 {
+        margin-top: 250px;
+        margin-left: 10%;
+    }
+
+    #obj2 {
+        margin-top: 270px;
+        margin-left: 10%;
+    }
+
+    #obj3 {
+        margin-top: 290px;
+        margin-left: 10%;
+    }
+
+    #obj4 {
+        margin-top: 250px;
+        margin-left: 102%;
+    }
+
+    #obj5 {
+        margin-top: 270px;
+        margin-left: 102%;
+    }
+
+    #obj6 {
+        margin-top: 290px;
+        margin-left: 102%;
+    }
+    
+    #white h1 {
+        position: absolute;
+        font-size: 25px;
+        margin-top: 260px;
+        margin-left: 220px;
+    }
+    
+    #locationP {
+        display: none;
+    }
+    
+    #jobRoleP {
+        display: none;
+    }
+    
+    #jobTypeP {
+        display: none;
+    }
+    
+    .location {
+        margin-left: 225px;
+        margin-top: 400px;
+    }
+    
+    .jobRole {
+        margin-left: 225px;
+        margin-top: 480px;
+    }
+    
+    .jobType {
+        margin-left: 225px;
+        margin-top: 560px;
+    }
+    
+    #checkJobs {
+        margin-left: 200px;
+        margin-top: 660px
+    }
+    
+    #twitter {
+        margin-top: 150px;
+        margin-left: 300px;
+    }
+    
+    #facebook {
+        margin-top: 150px;
+        margin-left: 350px;
+    }
+    
+    #instagram {
+        margin-top: 150px;
+        margin-left: 400px;
+    }
+    
+    #linkedin {
+        margin-top: 150px;
+        margin-left: 450px;
+    }
+    
+    #copyright {
+        font-size: 15px;
+        margin-top: 200px;
+        margin-left: 300px;
+    }
+    
+    #impressum {
+        font-size: 15px;
+        margin-left: 415px;
+        margin-top: 200px;
+    }
+    
+    #footerLogo {
+        display: none;
+    }
+    
+    #white {
+        height: 900px;
+    }
+    
+    #berlinP {
+        font-size: 15px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    
+    #bInfo {
+        font-size: 13px;
+        margin-top: 45px;
+        margin-left: 50px;
+    }
+    
+    #bInfo1 {
+        font-size: 13px;
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+    
+    #bInfo2 {
+        font-size: 13px;
+        margin-top: 75px;
+        margin-left: 50px;
+    }
+    
+    #parisP {
+        font-size: 15px;
+        margin-top: 120px;
+        margin-left: 50px;
+    }
+    
+    #pInfo {
+        font-size: 13px;
+        margin-top: 135px;
+        margin-left: 50px;
+    }
+    
+    #pInfo1 {
+        font-size: 13px;
+        margin-top: 165px;
+        margin-left: 50px;
+    }
+    
+    #pInfo2 {
+        font-size: 13px;
+        margin-top: 180px;
+        margin-left: 50px;
+    }
+    
+    #londonP{
+        font-size: 15px;
+        margin-top: 30px;
+        margin-left: 250px;
+    }
+    
+    #lInfo {
+        font-size: 13px;
+        margin-top: 45px;
+        margin-left: 250px;
+    }
+}
